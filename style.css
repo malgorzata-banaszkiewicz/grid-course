@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-auto-rows: 400px, 400px;
+    grid-gap: 50px;
+
+}
+
+.grid-item-1 {
+    align-self: flex-start;
+}
+
+.grid-item-2 {
+    align-self: end;
+}
+
+.grid-tem-3 {
+    align-self: end;
+}
+
+.grid-item-4 {
+    align-self: start;
+}
